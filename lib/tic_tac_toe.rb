@@ -69,7 +69,7 @@ class TicTacToe
     WIN_COMBINATIONS.find do |win_array|
       win_array.all? {|i| @board[i] == "X"} || win_array.all? {|i| @board[i] == "O"}
     end
-    # It tests in win_array is found in the WIN_COMBINATIONS, if found, returns the winning array, hense true; if not found, returns false.
+    # It tests if win_array is found in the WIN_COMBINATIONS, if found, returns the winning array, hense true; if not found, returns false.
   end
 
   def full?
